@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins";
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.165);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+
+}
+
+.end {
+    color: white;
+}
+
+.remaining-time {
+    display: flex;
+    gap: 10px
+}
+
+.time {
+    border: 5px solid white;
+    padding: 15px 25px;
+    min-width: 110px;
+    border-radius: 5%;
+    color: white;
+    font-size: 40px;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 3px;
+    color: white;
+}
+
+button {
+    background: rgb(255, 68, 1);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.title {
+    color: rgb(248, 224, 182);
+}
+
+.discount {
+    color: white;
+}
+
+.message {
+    color: rgb(248, 224, 182);
+}
+
+.main {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 15px;
+    background-size: cover;
+    display: grid;
+    place-content: center;
+
+}
+
+.form {
+    background-color: rgb(89, 107, 168);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 15px;
+}
+
+.form h1 {
+    color: white;
+}
+
+.form p {
+    color: white;
+}
+
+.text {
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+.form button {
+    width: 130px;
+    background: white;
+    color: rgb(89, 107, 168);
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.form img {
+    height: 100px;
+    width: 150px;
+    border-radius: 5px;
+}
+.error {
+    color: red;
+    font-size: 13px;
+}
+.image-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.image-select label:first-of-type {
+    margin-right: 15px;
+}
+
+.radio {
+    position: relative;
+    top: 20%;
+}
